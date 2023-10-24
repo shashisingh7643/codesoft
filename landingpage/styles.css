@@ -1,0 +1,237 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Global styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #408ad9;
+    color: beige;
+    font-size: 20px;
+    font-style: oblique;
+    padding: 7px 0;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+  }
+  
+  nav ul.menu {
+    list-style: none;
+  }
+  
+  nav ul.menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image:  url(image/OIP.jpeg);
+    background-size: cover;
+    font-style:italic;
+    background-position: center;
+
+    color: #000000;
+    text-align: center;
+    padding: 175px 0;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    
+    padding: 10px 20px;
+    background-color: #cdec1f;
+    
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: rgba(254, 84, 189, 0.405);
+    padding: 80px 0;
+  }
+  
+  .about h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* History Section */
+  .history-section {
+    color: rgb(247, 246, 246);
+    background-image:url(image/707457-new-wallpapers-of-himalayas-2560x1600-hd-1080p.jpg); 
+    background-color: #1b6d7179;
+    background-size: cover;
+    font-style: oblique;
+    padding: 80px 0;
+  }
+  
+  .history-section h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .history-section h4 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .history-section p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .history-section ol {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  /* Facts Section */
+  .facts {
+    color: rgb(9, 230, 246);
+    background-image: url(image/R.jpeg); 
+    background-size: cover;
+    padding: 80px 0;
+  }
+  
+  .facts h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section2 table{
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section2 table th{ 
+    font-size: 25px;
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section2 table td{   
+    font-size: 25px;
+    border-bottom: 2px solid black; 
+} 
+.section2 h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .section2 ol {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  /* Image Section */
+  .image-section {
+    color: rgba(9, 9, 9, 0.703);
+    font-style: italic;
+    font-size: larger;
+    color: #9b9595;
+    background-image: url(image/OIP\ \(1\).jpeg); 
+    background-size:contain;
+    background-color: #08080879;
+    padding: 190px 0;
+  }
+  
+  .image-section h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .image-section h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-section p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .image-section ol {
+    font-size: 25px;
+    text-align: left;
+  }
+
+  /* Contact Section */
+  .contact {
+    padding: 40px 0;
+    color: #FFF;
+    text-align: center;
+    background-color: #193840;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+
+
+  
